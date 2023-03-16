@@ -1,0 +1,116 @@
+/* Set the background color of the header to gray */
+header {
+  background-color: gray;
+}
+
+/* Set the background color of each column to gray */
+.bg-gray {
+  background-color: gray;
+}
+/*
+@media (min-width: 1200px) {
+
+margin:0;
+
+}*/
+
+.container{
+  width: 100%;
+}
+
+@media (max-width: 991px) {
+  /* For small and medium devices */
+
+  /* Add border to the navbar menus */
+  .navbar-nav .nav-link {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px 10px;
+    wid
+  }
+
+  /* Add hover effect to the navbar menus */
+  .navbar-nav .nav-link:hover {
+    background-color: #ccc;
+  }
+
+/* Hide the list of menus for larger devices 
+  .navbar-nav {
+    display: none;
+  }*/
+
+}
+
+@media (min-width: 992px) {
+
+.section{
+  width: 100%;
+}
+
+}
+
+@media (max-width: 769px) {
+  /* For small and medium devices */
+
+  /* Add border to the navbar menus */
+  .navbar-nav .nav-link {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
+
+  /* Add hover effect to the navbar menus */
+  .navbar-nav .nav-link:hover {
+    background-color: #ccc;
+  }
+
+  .section {
+  height: 700px;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+#top {
+  display: block;
+  height: 0;
+  margin: -100px 0 0;
+  padding: 0;
+}
+}
+
+ 
+  @media (min-width: 576px) {
+
+ /*Hide the list of menus for larger devices */
+  .navbar-nav {
+    display: none;
+
+      }
+
+  .navbar-center .navbar-inner {
+    text-align: center;
+  }
+  .navbar-center .navbar-inner .nav {
+    display: inline-block;
+    float: none;
+  }
+
+  .section {
+  height: 700px;
+  padding: 50px;
+
+}
+
+#top {
+  display: block;
+  height: 0;
+  margin: -100px 0 0;
+  padding: 0;
+}
+
+}
+
+.row {
+  width: 100%;
+}
+  
